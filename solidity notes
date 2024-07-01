@@ -25,7 +25,36 @@ _Rules for Identifiers:_
 _Literals_
 Literals is a data type which you define in your smart contracts
 Literals are fixed values directly written into code
-These are constat values and are not represented by variables or expressions
+These are constant values and are not represented by variables or expressions
+Solidity supports: integer, boolean, string, hexadecimal, and address literals
+
+__Integer literals__
+uint256 decimalNumber = 42;
+uint256 hexNumber = 0x2A; // 42 in hexadecimal
+
+__Boolean Literals__
+bool flag = true;
+
+__String Literals__
+string greeting = "Hello, Solidity!";
+
+__Hexadecimal Literals:__
+bytes data = hex"00112233";
+
+__Address Literals__
+address recipient = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835Cb2;
+
+
+
+
+
+
+
+
+
+
+
+
 
 Link to course
 https://www.youtube.com/watch?v=dTzoKx4f6P8&list=PLWUCKsxdKl0oksYr6IG_wRsaSUySQC0ck&index=2
