@@ -1,8 +1,32 @@
-There are three types of variables in Solidity
+_There are three types of variables in Solidity_
 
 1. Local: Declared inside a function and not stored on the chain
 2. State: Declared outside a function to maintain global state within the contract
 3. Global: Provides information about the chain. Injected by EVM during runtime and are not declared by the contract author
 
+_Components of Solidity_
+
+Keywords::
+* Contract
+* Library
+* Pragma
+* Modifier
+
+_Identifiers::_
+Identifiers are unique names given to entities such as variables, functions, contracts and other user-defined items
+Identifiers help in uniquely naming and accessing these entities within the scope of the program
+
+_Rules for Identifiers:_
+1. Alphabet and digits: a-z, A-Z, 0-9, _
+2. Start with letter or underscore
+3. Case sensitive
+4. No reserved keywords
+
+_Literals_
+Literals is a data type which you define in your smart contracts
+Literals are fixed values directly written into code
+These are constat values and are not represented by variables or expressions
+
+Link to course
 https://www.youtube.com/watch?v=dTzoKx4f6P8&list=PLWUCKsxdKl0oksYr6IG_wRsaSUySQC0ck&index=2
 https://www.youtube.com/watch?v=aqxAWLi6UMA&list=PL1mpOEiTOZnZ59xbumr8_QnIAU8eKmb
