@@ -107,6 +107,36 @@ DEX - Decentralized Exchange
 
 We are going to use Remix IDE
 
+__INITIALIZING SMART CONTRACTS__
+pragma solidity ^0.8.19; 
+
+contract HelloWorld {
+
+}
+
+__Variables and Types in Solidity__
+Variables
+- Local: declared inside a function, not stored on blockchain
+- State: declared outside a function to maintain global state within the contract, it is also stored on chain
+- Global: provides information about the chain. Injected by the EVM during runtime and are not declared by the contract author. global variables include things like: transaction sender, block hash, timestamp, etc
+
+__SETTING UP__
+
+<!-- define the compiler version you would be using -->
+pragma solidity ^0.8.19
+
+<!-- start by creating a contract named variable -->
+
+contract HowToDeclareVariables {
+    
+}
+
+
+
+
+
+
+
 Link to course
 https://www.youtube.com/watch?v=dTzoKx4f6P8&list=PLWUCKsxdKl0oksYr6IG_wRsaSUySQC0ck&index=3
 
